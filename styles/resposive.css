@@ -1,0 +1,33 @@
+/* large : 992px + */
+/* mobile : 600px - */
+
+@media screen and (max-width: 600px) {
+    nav{
+        width: 100%;
+    }
+    .left-nav-container{
+        width: 90%;
+        /* border: 1px solid red; */
+        margin-left: 20px;
+        column-gap: 5px;
+    }
+    .left-nav-container h3 {
+        font-size: 1.3rem;
+        font-weight: 700;
+    }
+    .left-nav-container .travel {
+        color: #FF5400;
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+    .right-nav-container{
+        width: 10%;
+    }
+    .right-nav-container .icon{
+        margin-right: 20px;
+        display: block;
+    }
+    .right-nav-container ul li{
+        display: none;
+    }
+}
