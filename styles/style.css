@@ -1,5 +1,79 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;800&display=swap');
 
-body{
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
     font-family: 'Mulish', sans-serif;
 }
+
+/* Navbar related style start */
+nav {
+    max-width: 1200px;
+    /* border: 2px solid red; */
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+
+}
+
+.left-nav-container {
+    width: 50%;
+    /* border: 2px solid yellow; */
+    display: flex;
+    column-gap: 12px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.left-nav-container img {
+    width: 60px;
+    height: 52px;
+    object-fit: cover;
+}
+
+.left-nav-container h3 {
+    color: #131318;
+    font-size: 1.9rem;
+    font-weight: 700;
+}
+
+.left-nav-container .travel {
+    color: #FF5400;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+
+
+.right-nav-container {
+    width: 50%;
+    /* border: 2px solid red; */
+}
+.right-nav-container ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    column-gap: 45px;
+}
+.right-nav-container li {
+    list-style-type: none;
+}
+.right-nav-container li a {
+    text-decoration: none;
+    color: #424247;
+    font-family: Mulish;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.right-nav-container ul .home {
+    color: #FF5400;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.right-nav-container .icon {
+    display: none;
+}
+/* Navbar related style end */
