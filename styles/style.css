@@ -121,7 +121,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15px; 
+    gap: 15px;
 }
 
 .banner-input-container input {
@@ -167,3 +167,76 @@ nav {
 }
 
 /* banner related style end */
+/* Popular tour section start */
+.popular-tour-container {
+    max-width: 1200px;
+    margin: 80px auto;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popular-tour-text-container {
+    width: 50%;
+    /* border: 1px solid red; */
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-startr;
+}
+
+.popular-tour-title {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.popular-tour-description {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.popular-tour-text-container ul {
+    margin-left: 40px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+.popular-tour-text-container ul li{
+    line-height: 30px;
+}
+
+.popular-tour-text-container button {
+    margin-top: 20px;
+    border-radius: 8px;
+    background: #FF5400;
+    height: 40px;
+    width: 110px;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 10px 13px 10px 13px;
+}
+
+
+.popular-tour-image-container{
+    width: 50%;
+}
+.popular-tour-image-container img{
+    width: 85%;
+    height: 86%;
+    display: block;
+    margin: auto;
+    margin-right: 20px
+}
+/* Popular tour section end */
