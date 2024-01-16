@@ -159,5 +159,26 @@
     .row .bandarban{
         width: 100%;
     }
-    
+
+    /* extra section */
+    .transport-container{
+        text-align: center;
+        /* border: 2px solid red; */
+        padding: 10px;
+    }
+    .transport-container-title{
+        font-size: 1.8rem;
+        font-weight: 700;
+        margin: 20px auto;
+    }
+
+    .transport-bottom-container{ 
+        flex-direction: column;
+    }
+    .transport-image-container{
+        width: 95%;
+        height: 570px;
+        /* border: 1px solid yellow; */
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+    }
 }
