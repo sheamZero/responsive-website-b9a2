@@ -357,7 +357,7 @@ nav {
 }
 
 .transport-image-container img {
-    width: 70%;
+    width: 90%;
     height: 260px;
     border-radius: 20px;
     margin: 10px auto;
@@ -369,6 +369,7 @@ nav {
     font-weight: 600;
     padding: 7px 26px;
     border-radius: 20px;
+    width: 90%;
     border: none;
     background-color: white;
     /* margin-top: 15px; */
