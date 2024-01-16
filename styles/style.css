@@ -189,7 +189,7 @@ nav {
 
 .popular-tour-title {
     color: #131318;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 800;
     margin-bottom: 20px;
 }
@@ -210,7 +210,8 @@ nav {
     font-weight: 400;
     line-height: 26px;
 }
-.popular-tour-text-container ul li{
+
+.popular-tour-text-container ul li {
     line-height: 30px;
 }
 
@@ -229,14 +230,107 @@ nav {
 }
 
 
-.popular-tour-image-container{
+.popular-tour-image-container {
     width: 50%;
 }
-.popular-tour-image-container img{
+
+.popular-tour-image-container img {
     width: 85%;
     height: 86%;
     display: block;
     margin: auto;
-    margin-right: 20px
+    margin-right: 5px
 }
+
 /* Popular tour section end */
+/* Your destination related style start */
+.destination-container {
+    max-width: 1200px;
+    margin: 80px auto;
+}
+
+.destination-text-container {
+    /* border: 1px solid red; */
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.destination-text-title {
+    margin-bottom: 20px;
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+/* 
+        commmon-p elements
+*/
+.common-p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+
+
+.destination-image-container .row {
+    width: 100%;
+    /* height: 300px; */
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.row div {
+    width: 50%;
+    height: 300px;
+    position: relative;
+    /* border: 1px solid red; */
+}
+.row div img {
+    width: 100%;
+    height: 100%;
+}
+.row div h2 {
+    position: absolute;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    color: #FFF;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+.row .north-america{
+    width: 70%;
+}
+.row .kashmir{
+    width: 35%;
+}
+.row .bandarban{
+    width: 65%;
+}
+
+/* .destination-image-container .second-row {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.second-row div{
+    border: 1px solid red;
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+.second-row div img{
+    width: 100%;
+    height: 100%;
+} */
+
+/* Your destination related style end */
