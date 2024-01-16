@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -395,7 +396,9 @@ nav {
 /* Why Choose us related style start */
 .why-choose-container {
     max-width: 1200px;
-    margin: 50px auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
     padding: 15px 10px;
     text-align: center;
     /* border: 1px solid black; */
@@ -453,4 +456,88 @@ nav {
     height: 70px;
 }
 
-/* Why Choose us related style start */
+/* Why Choose us related style end */
+/* start newsletter related style */
+.newsletter-cotainer {
+    max-width: 1200px;
+    /* border: 2px solid black; */
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter-text-container {
+    width: 40%;
+    padding: 40px;
+    margin-right: 30px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+.newsletter-text-container h3 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.newsletter-text-container P {
+    margin-top: 15px;
+}
+
+.newsletter-text-container hr {
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(19, 19, 24, 0.10);
+}
+
+.newsletter-text-container input {
+    display: block;
+    margin-bottom: 15px;
+    height: 50px;
+    width: 80%;
+    padding: 10px;
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 16px;
+    font-weight: 400;
+
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+
+}
+
+.newsletter-text-container .subscribe {
+    border-radius: 8px;
+    background-color: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.newsletter-image-container {
+    width: 55%;
+    position: relative;
+}
+.newsletter-image-container img{
+    width: 100%;
+}
+
+.newsletter-image-container .percentage {
+    width: 310px;
+    height: 100px;
+    border-radius: 10px;
+    color: #FFF;
+    text-align: center;
+    background: #FF5400;
+    position: absolute;
+    bottom: 65px;
+    right: 0;
+    transform: rotate(-25deg);
+}
+.percentage p{
+    margin-top: 20px;
+}
+/* end newsletter related style */

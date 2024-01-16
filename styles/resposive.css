@@ -206,5 +206,25 @@
     .why-choose-box {
         width: 95%;    
     }
+    /* Newsletter section */
+    .newsletter-cotainer {
+        width: 95%;
+        flex-direction: column;
+    }
+    .newsletter-text-container {
+        width: 90%;
+        margin-right: 0;
+    }
+
+    .newsletter-image-container {
+        width: 95%;
+        margin-top: 30px;
+    }
+    .newsletter-image-container .percentage {
+        width: 260px;
+        height: 80px;
+    
+    }
+    
 
 }
