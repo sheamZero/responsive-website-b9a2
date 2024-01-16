@@ -132,7 +132,7 @@
         font-weight: 800;
     }
 
-    .common-p{
+    .common-p {
         font-size: 0.9rem;
     }
 
@@ -140,45 +140,71 @@
         width: 90%;
         flex-direction: column;
     }
+
     .row div {
         width: 100%;
         height: 180px;
         margin-left: 20px;
         position: relative;
     }
+
     .row div h2 {
         font-size: 1.5rem;
         font-weight: 700;
     }
-    .row .north-america{
+
+    .row .north-america {
         width: 100%;
     }
-    .row .kashmir{
+
+    .row .kashmir {
         width: 100%;
     }
-    .row .bandarban{
+
+    .row .bandarban {
         width: 100%;
     }
 
     /* extra section */
-    .transport-container{
+    .transport-container {
         text-align: center;
         /* border: 2px solid red; */
         padding: 10px;
     }
-    .transport-container-title{
+
+    .transport-container-title {
         font-size: 1.8rem;
         font-weight: 700;
         margin: 20px auto;
     }
 
-    .transport-bottom-container{ 
+    .transport-bottom-container {
         flex-direction: column;
     }
-    .transport-image-container{
+
+    .transport-image-container {
         width: 95%;
-        height: 570px;
+        /* height: 600px; */
         /* border: 1px solid yellow; */
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
     }
+
+    /* Why Choose us related style start */
+    .why-choose-container {
+        width: 95%;
+        text-align: center;
+        /* border: 1px solid black; */
+    }
+    .why-choose-title {
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+    .why-choose-box-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .why-choose-box {
+        width: 95%;    
+    }
+
 }

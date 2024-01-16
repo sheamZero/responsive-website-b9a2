@@ -283,16 +283,19 @@ nav {
     gap: 20px;
     margin-bottom: 20px;
 }
+
 .row div {
     width: 50%;
     height: 300px;
     position: relative;
     /* border: 1px solid red; */
 }
+
 .row div img {
     width: 100%;
     height: 100%;
 }
+
 .row div h2 {
     position: absolute;
     position: absolute;
@@ -305,43 +308,49 @@ nav {
     font-size: 1.8rem;
     font-weight: 800;
 }
-.row .north-america{
+
+.row .north-america {
     width: 70%;
 }
-.row .kashmir{
+
+.row .kashmir {
     width: 35%;
 }
-.row .bandarban{
+
+.row .bandarban {
     width: 65%;
 }
 
 
 /* Extra section related style */
-.transport-container{
+.transport-container {
     max-width: 1200px;
     text-align: center;
     margin: 30px auto;
     /* border: 2px solid red; */
 }
-.transport-container-title{
+
+.transport-container-title {
     color: #131318;
     font-size: 2.5rem;
     font-weight: 800;
     margin-bottom: 35px;
 }
+
 /* 
 
 */
-.transport-bottom-container{ 
+.transport-bottom-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 20px;
 
 }
-.transport-image-container{
+
+.transport-image-container {
     width: 45%;
-    height: 570px;
+    /* height: 600px; */
     /* border: 1px solid yellow; */
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 10px;
@@ -349,16 +358,19 @@ nav {
     border-radius: 20px;
     margin: 5px
 }
-.transport-image-container .common-p{
+
+.transport-image-container .common-p {
     margin: 10px;
 }
-.transport-image-container img{
+
+.transport-image-container img {
     width: 70%;
     height: 260px;
     border-radius: 20px;
     margin: 10px auto;
 }
-.transport-image-container .transport-button{
+
+.transport-image-container .transport-button {
     color: #131318;
     font-size: 2rem;
     font-weight: 800;
@@ -366,29 +378,30 @@ nav {
     border-radius: 20px;
     border: none;
     background-color: white;
-    margin-top: 18px;
+    /* margin-top: 15px; */
+    margin-bottom: 20px;
 
     transition: background-color 1s linear, font-weight 1s linear;
 }
 
-.transport-button:hover{
+.transport-button:hover {
     background-color: #FF5400;
     color: #FFF;
     font-weight: 500;
 }
+
 /* Extra section related style */
 
 /* Why Choose us related style start */
-.why-choose-container{
+.why-choose-container {
     max-width: 1200px;
-    /* height: 300px; */
     margin: 50px auto;
     padding: 15px 10px;
     text-align: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
-.why-choose-title{
+.why-choose-title {
     color: #131318;
     font-size: 2.5rem;
     font-weight: 800;
@@ -397,22 +410,47 @@ nav {
 
 
 
-.why-choose-box-container{
+.why-choose-box-container {
     width: 100%;
     margin: 30px auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-.why-choose-box{
+
+.why-choose-box {
     width: 45%;
     height: 250px;
+    text-align: left;
     padding: 10px;
     border-radius: 8px;
     margin-bottom: 30px;
-    border: 2px solid green;
+    border-radius: 16px;
+
 }
-.why-choose-box h3{
+
+#background-1 {
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background-color: rgba(251, 181, 99, 0.05);
+}
+
+#background-2 {
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background-color: rgba(41, 206, 246, 0.05);
+}
+
+#background-3 {
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+.why-choose-box h3 {
     margin: 20px auto;
 }
+
+.why-choose-box img {
+    width: 75px;
+    height: 70px;
+}
+
 /* Why Choose us related style start */
